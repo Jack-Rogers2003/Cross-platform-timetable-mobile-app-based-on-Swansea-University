@@ -1,0 +1,45 @@
+# Kotlin/Gradle
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+.idea/
+*.kotlin_module
+
+# iOS / Swift
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.swiftpm/
+.build/
+DerivedData/
+*.ipa
+Pods/
+Carthage/
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+fastlane/Preview.html
+
+# macOS
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+*.tmp

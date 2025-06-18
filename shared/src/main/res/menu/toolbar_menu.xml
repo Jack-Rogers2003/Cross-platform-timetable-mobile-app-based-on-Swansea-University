@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/additionalSettings"
+        android:title="settings"
+        android:icon="@drawable/settings_icon"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logOutIcon"
+        android:title="logOut"
+        android:icon="@drawable/logout_icon"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/formIcon"
+        android:title="Submit Booking"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/checkBookings"
+        android:title="Check Bookings"
+        android:icon="@drawable/ic_tick_24"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "758890685872",
+    "firebase_url": "https://dissertationapp-860fa-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dissertationapp-860fa",
+    "storage_bucket": "dissertationapp-860fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758890685872:android:a8af98b76f616d62c96275",
+        "android_client_info": {
+          "package_name": "com.example.mobileapp.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf042B7guMxC3o04Dtg-3eb0RJGOeszyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

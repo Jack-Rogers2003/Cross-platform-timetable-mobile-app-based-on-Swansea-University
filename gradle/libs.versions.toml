@@ -1,0 +1,74 @@
+[versions]
+agp = "8.10.1"
+appcompatVersion = "1.3.1"
+colorpicker = "0.0.13"
+colorpickerVersion = "1.2.0"
+gson = "2.10.1"
+jsoup = "1.15.3"
+kotlin = "2.0.0"
+compose = "1.5.4"
+compose-material3 = "1.1.2"
+androidx-activityCompose = "1.8.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.1.0"
+constraintlayout = "2.2.0"
+kotlinxCoroutinesAndroid = "1.8.0"
+kotlinxCoroutinesAndroidVersion = "1.5.2"
+material = "1.12.0"
+okhttp = "4.11.0"
+playServicesTasks = "18.2.0"
+firebaseDatabaseKtx = "21.0.0"
+firebaseAuthKtx = "23.1.0"
+postgresql = "42.2.23"
+seleniumJava = "4.27.0"
+seleniumJavaVersion = "4.8.1"
+simpleXml = "2.7.1"
+sqliteJdbc = "3.36.0.3"
+webdrivermanager = "5.2.1"
+webdrivermanagerVersion = "5.5.3"
+appcompat = "1.7.0"
+firebaseAuthKtxVersion = "23.2.0"
+playServicesTasksVersion = "18.2.1"
+
+[libraries]
+androidx-appcompat-v131 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+colorpicker = { module = "com.github.QuadFlask:colorpicker", version.ref = "colorpicker" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-android-v152 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroidVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+mrudultora-colorpicker = { module = "com.github.mrudultora:Colorpicker", version.ref = "colorpickerVersion" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+play-services-tasks = { group = "com.google.android.gms", name = "play-services-tasks", version.ref = "playServicesTasks" }
+firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
+selenium-chrome-driver = { module = "org.seleniumhq.selenium:selenium-chrome-driver", version.ref = "seleniumJavaVersion" }
+selenium-java = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "seleniumJava" }
+selenium-java-v481 = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "seleniumJavaVersion" }
+simple-xml = { module = "org.simpleframework:simple-xml", version.ref = "simpleXml" }
+sqlite-jdbc = { module = "org.xerial:sqlite-jdbc", version.ref = "sqliteJdbc" }
+webdrivermanager = { module = "io.github.bonigarcia:webdrivermanager", version.ref = "webdrivermanager" }
+webdrivermanager-v553 = { module = "io.github.bonigarcia:webdrivermanager", version.ref = "webdrivermanagerVersion" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+google-firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtxVersion" }
+gms-play-services-tasks = { group = "com.google.android.gms", name = "play-services-tasks", version.ref = "playServicesTasksVersion" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
